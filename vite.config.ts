@@ -18,6 +18,8 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      // GitHub Pages配置
+      base: '/magic/'
     };
 });
